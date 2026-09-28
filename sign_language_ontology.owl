@@ -1,0 +1,1599 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:8dbd8f11-24f1-44a1-b5dc-a9331ae5b287#"
+     xml:base="urn:webprotege:ontology:8dbd8f11-24f1-44a1-b5dc-a9331ae5b287"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:webprotege="http://webprotege.stanford.edu/">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:8dbd8f11-24f1-44a1-b5dc-a9331ae5b287"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#subClassOf -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+        <rdfs:label>rdfs:subClassOf</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#subPropertyOf -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#subPropertyOf">
+        <rdfs:label>rdfs:subPropertyOf</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8suG8zC7tE81eucFshVfg0 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8suG8zC7tE81eucFshVfg0">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R8wOBVKnf2rmhjIfEwFMCNJ"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RB8iUd4eJL8X5aiSItqdxni"/>
+        <rdfs:label>has_Initial_Location</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8wOBVKnf2rmhjIfEwFMCNJ -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8wOBVKnf2rmhjIfEwFMCNJ">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RB8iUd4eJL8X5aiSItqdxni"/>
+        <rdfs:label>hasLocation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9c7hb2nEC5R2XGP14381XV -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9c7hb2nEC5R2XGP14381XV">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/RgI5U9NsxgMIZ6eM3sQmVq"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RDkxUMX5vBvO9OJL9hL44Gh"/>
+        <rdfs:label>hasFinalOrientation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9hqc3z6QUroLHON7qaU6Vb -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9hqc3z6QUroLHON7qaU6Vb">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/RmEtsBX9JYoCyD9X4tDEm"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R9GSZlGWPggfk5LRyAjfhzM"/>
+        <rdfs:label>hasHeadMovement</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9mSrQKHGNOv3zAYXI2f4lu -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9mSrQKHGNOv3zAYXI2f4lu">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/RmEtsBX9JYoCyD9X4tDEm"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R9GSZlGWPggfk5LRyAjfhzM"/>
+        <rdfs:label>hasIntermediateMovement</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9oUZfQ1Hdtv6wrGrizcOR3 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9oUZfQ1Hdtv6wrGrizcOR3">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R8wOBVKnf2rmhjIfEwFMCNJ"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RB8iUd4eJL8X5aiSItqdxni"/>
+        <rdfs:label>hasIntermediateLocation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBk6aBSJBbdeMfhSJA4xHSU -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBk6aBSJBbdeMfhSJA4xHSU">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R8wOBVKnf2rmhjIfEwFMCNJ"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_Final_Location</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC8DzrI0u4DyRDhQNs0LMCM -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RC8DzrI0u4DyRDhQNs0LMCM">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RuJVjy9T8nLYwmfyUaXgyR"/>
+        <rdfs:label>hasHandshape</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCHeTTsOE9o8aBuT2oZL5k1 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCHeTTsOE9o8aBuT2oZL5k1">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/Rwy4UI9ABkUhuMViqeRwW"/>
+        <rdfs:label>hasFacialExpression</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCr7P5PeYStlntTxqtPQKNZ -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCr7P5PeYStlntTxqtPQKNZ">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/RC8DzrI0u4DyRDhQNs0LMCM"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RuJVjy9T8nLYwmfyUaXgyR"/>
+        <rdfs:label>hasFinalHandshape</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDM6XKD2JdDofdCo0iVUKUZ -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDM6XKD2JdDofdCo0iVUKUZ">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/RmEtsBX9JYoCyD9X4tDEm"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R9GSZlGWPggfk5LRyAjfhzM"/>
+        <rdfs:label>has_Sequential_Movement</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDjhWHGOAM3EDGW0Jv53Gwr -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDjhWHGOAM3EDGW0Jv53Gwr">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/RmEtsBX9JYoCyD9X4tDEm"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R9GSZlGWPggfk5LRyAjfhzM"/>
+        <rdfs:label>hasFinalMovement</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDlp3zF0B0VbkeEQWDKxR1w -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDlp3zF0B0VbkeEQWDKxR1w">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/RmEtsBX9JYoCyD9X4tDEm"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R9GSZlGWPggfk5LRyAjfhzM"/>
+        <rdfs:label>hasInitialMovement</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RGlr66k0RD8LVmRkIQMF1J -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RGlr66k0RD8LVmRkIQMF1J">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/RC8DzrI0u4DyRDhQNs0LMCM"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RuJVjy9T8nLYwmfyUaXgyR"/>
+        <rdfs:label>hasIntermediateHandshape</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RMw95fAVKurWpAELmF7RHj -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RMw95fAVKurWpAELmF7RHj">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/RC8DzrI0u4DyRDhQNs0LMCM"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RuJVjy9T8nLYwmfyUaXgyR"/>
+        <rdfs:label>has_Initial_Handshape</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RN1QgYwVKmy8HwBN9kYbzS -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RN1QgYwVKmy8HwBN9kYbzS">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/RgI5U9NsxgMIZ6eM3sQmVq"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RDkxUMX5vBvO9OJL9hL44Gh"/>
+        <rdfs:label>hasIntermediateOrientation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RgI5U9NsxgMIZ6eM3sQmVq -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RgI5U9NsxgMIZ6eM3sQmVq">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RDkxUMX5vBvO9OJL9hL44Gh"/>
+        <rdfs:label>hasOrientation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RgiJ4NkF8wls3YwlVJqGQk -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RgiJ4NkF8wls3YwlVJqGQk">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/RgI5U9NsxgMIZ6eM3sQmVq"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RDkxUMX5vBvO9OJL9hL44Gh"/>
+        <rdfs:label>hasInitialOrientation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RmEtsBX9JYoCyD9X4tDEm -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RmEtsBX9JYoCyD9X4tDEm">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R9GSZlGWPggfk5LRyAjfhzM"/>
+        <rdfs:label>hasMovement</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RmGdYMGa45a9qprTeCi2CA -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RmGdYMGa45a9qprTeCi2CA">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RBdz1JsXNHe7s5R4dbR3uC1"/>
+        <rdfs:label>representsConcept</rdfs:label>
+        <rdfs:subPropertyOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ontolex:evokes</rdfs:subPropertyOf>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RoJSMDEAoR0iJntydIjX7A -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RoJSMDEAoR0iJntydIjX7A">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/RmEtsBX9JYoCyD9X4tDEm"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R8VkOCgckIOM6gYJgKTXUqr"/>
+        <rdfs:label>isUsedInRegion</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RoV7vY8hBcUz9IEJGr9x4Z -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RoV7vY8hBcUz9IEJGr9x4Z">
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/Rxq0yyQsRwhDcu6mty0uCc"/>
+        <rdfs:label>StartWithLetter</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R5vo7I84zu9TLIZBbhlG8l -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R5vo7I84zu9TLIZBbhlG8l">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>isCompound</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9vJWpB0ORM94nZflmdsGlx -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9vJWpB0ORM94nZflmdsGlx">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>isTwoHanded</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R73M3TViNF7KOkLHQrLC2mW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R73M3TViNF7KOkLHQrLC2mW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBdz1JsXNHe7s5R4dbR3uC1"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Objects</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8VkOCgckIOM6gYJgKTXUqr -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8VkOCgckIOM6gYJgKTXUqr">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCOUcoSbnH6qMcwj1o7ldW7"/>
+        <rdfs:label>Dialect_Region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8pbrd92REw2tnV0fUKOgs -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8pbrd92REw2tnV0fUKOgs">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCOUcoSbnH6qMcwj1o7ldW7"/>
+        <rdfs:label>Signer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9GSZlGWPggfk5LRyAjfhzM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9GSZlGWPggfk5LRyAjfhzM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RjkWFOqtRZKSGjR9zhncbY"/>
+        <rdfs:label>Movement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9dkUrKW5HABD87WVSFOt4p -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9dkUrKW5HABD87WVSFOt4p">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBdz1JsXNHe7s5R4dbR3uC1"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interactions</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm">
+        <rdfs:label>Sign</rdfs:label>
+        <rdfs:subClassOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ontolex:LexicalEntry</rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB8iUd4eJL8X5aiSItqdxni -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB8iUd4eJL8X5aiSItqdxni">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RjkWFOqtRZKSGjR9zhncbY"/>
+        <rdfs:label>Location</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBDZmzcFU4ld73wqJlrXyrZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBDZmzcFU4ld73wqJlrXyrZ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBdz1JsXNHe7s5R4dbR3uC1"/>
+        <rdfs:label>Person</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBHjirBEaDuZ3VZZON3qHr9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBHjirBEaDuZ3VZZON3qHr9">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBdz1JsXNHe7s5R4dbR3uC1"/>
+        <rdfs:label>Time_Concept</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBdz1JsXNHe7s5R4dbR3uC1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBdz1JsXNHe7s5R4dbR3uC1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Concept</rdfs:label>
+        <rdfs:subClassOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ontolex:LexicalConcept</rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBfmydw9vN0humcLr29Zh1r -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBfmydw9vN0humcLr29Zh1r">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBdz1JsXNHe7s5R4dbR3uC1"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Logical</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCOUcoSbnH6qMcwj1o7ldW7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCOUcoSbnH6qMcwj1o7ldW7">
+        <rdfs:label>Agent_or_Context</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCmx7ELomJ7XbZUzPGYPU5G -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCmx7ELomJ7XbZUzPGYPU5G">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBdz1JsXNHe7s5R4dbR3uC1"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emotions</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDZUR44iayQ5K0iRTn54Kb1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDZUR44iayQ5K0iRTn54Kb1">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBdz1JsXNHe7s5R4dbR3uC1"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Questions</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDkxUMX5vBvO9OJL9hL44Gh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDkxUMX5vBvO9OJL9hL44Gh">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RjkWFOqtRZKSGjR9zhncbY"/>
+        <rdfs:label>Orientation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDtiaf2prlcJijC0Y1kQmQ2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDtiaf2prlcJijC0Y1kQmQ2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBdz1JsXNHe7s5R4dbR3uC1"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Actions</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RQSaPZJiaNtZOcGWVyrZnN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RQSaPZJiaNtZOcGWVyrZnN">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBdz1JsXNHe7s5R4dbR3uC1"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Numbers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RjkWFOqtRZKSGjR9zhncbY -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RjkWFOqtRZKSGjR9zhncbY">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PhonologicalFeature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RuJVjy9T8nLYwmfyUaXgyR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RuJVjy9T8nLYwmfyUaXgyR">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RjkWFOqtRZKSGjR9zhncbY"/>
+        <rdfs:label>Handshape</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rwy4UI9ABkUhuMViqeRwW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rwy4UI9ABkUhuMViqeRwW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RjkWFOqtRZKSGjR9zhncbY"/>
+        <rdfs:label>FacialExpression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rxq0yyQsRwhDcu6mty0uCc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rxq0yyQsRwhDcu6mty0uCc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBdz1JsXNHe7s5R4dbR3uC1"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Letters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R74XFxcR2ahluf2NQ2llcd -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R74XFxcR2ahluf2NQ2llcd">
+        <rdfs:label>Forward_Point_Movement</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R74mbkqsOfbswfGWC04GPMO -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R74mbkqsOfbswfGWC04GPMO">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GSZlGWPggfk5LRyAjfhzM"/>
+        <rdfs:label>Backwards_Expansion</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R79xHYkuedhi9QKRau5fQsA -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R79xHYkuedhi9QKRau5fQsA">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RB8iUd4eJL8X5aiSItqdxni"/>
+        <rdfs:label>Wrist_Location</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7LjxHo8YTjGNmYWauUbSU7 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7LjxHo8YTjGNmYWauUbSU7">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <webprotege:R8wOBVKnf2rmhjIfEwFMCNJ rdf:resource="http://webprotege.stanford.edu/R9Rvg1jPSXNWpMeZSKWChAd"/>
+        <webprotege:RCHeTTsOE9o8aBuT2oZL5k1 rdf:resource="http://webprotege.stanford.edu/RDpVTmMePThqIDE9KY9I9Xp"/>
+        <webprotege:RDM6XKD2JdDofdCo0iVUKUZ rdf:resource="http://webprotege.stanford.edu/RrEKRhgm1NSWZCRrRsd6Jq"/>
+        <webprotege:RMw95fAVKurWpAELmF7RHj rdf:resource="http://webprotege.stanford.edu/R7XMmEZFYvHFzB2meGdKQ8h"/>
+        <webprotege:RmGdYMGa45a9qprTeCi2CA rdf:resource="http://webprotege.stanford.edu/R9TF8A51XU055m9dKBSlHG6"/>
+        <webprotege:RoV7vY8hBcUz9IEJGr9x4Z rdf:resource="http://webprotege.stanford.edu/R89dtyMTJEda60cGPOWQHGg"/>
+        <webprotege:R5vo7I84zu9TLIZBbhlG8l rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:R5vo7I84zu9TLIZBbhlG8l>
+        <rdfs:comment xml:lang="ar">تُؤدى هذه الإشارة كإشارة مركبة؛ حيث تبدأ اليد بتشكيل حرف الكاف (الأصابع الثلاثة الوسطى والبنصر والخنصر ممتدة لأعلى، بينما ينحني إصبع السبابة ليلتقي مع الإبهام)، ثم تنتقل اليد مباشرة لتتحرك بحركة دائرية واحدة في الفراغ المحايد أمام الجسم، ويصاحبها تعبير وجه استفهامي يتمثل في تقطيب الحاجبين</rdfs:comment>
+        <rdfs:label>Sign_How?</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7TqezjVV2veZF99UaWv2q -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7TqezjVV2veZF99UaWv2q">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <webprotege:RC8DzrI0u4DyRDhQNs0LMCM rdf:resource="http://webprotege.stanford.edu/R8ODHHVMm44fCGXLqarZ0Mk"/>
+        <webprotege:RCHeTTsOE9o8aBuT2oZL5k1 rdf:resource="http://webprotege.stanford.edu/RjrMHIdGr7U3nyaFqdLcz"/>
+        <webprotege:RmEtsBX9JYoCyD9X4tDEm rdf:resource="http://webprotege.stanford.edu/R74mbkqsOfbswfGWC04GPMO"/>
+        <webprotege:RmGdYMGa45a9qprTeCi2CA rdf:resource="http://webprotege.stanford.edu/R9bgtBq8F298FfgrRX8Xhhl"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">هذه الإشارة تعبر عن مفهوم &quot;سعید&quot; في لغة الإشارة الأمريكية يتم أداؤها باستخدام شكل اليد المفتوحة والمستوية ، مع حركة للتوسع إلى الخلف ، وبتعبير وجهي يظهر الابتسامة</rdfs:comment>
+        <rdfs:label>Sign_Happy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7XMmEZFYvHFzB2meGdKQ8h -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7XMmEZFYvHFzB2meGdKQ8h">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RuJVjy9T8nLYwmfyUaXgyR"/>
+        <rdfs:label>FourFingers_Extended</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7Z6crTVZe4mlF4EAvUGEIp -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7Z6crTVZe4mlF4EAvUGEIp">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RQSaPZJiaNtZOcGWVyrZnN"/>
+        <rdfs:label>Two</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7bFClSeYPR0wPib7tlX4iw -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7bFClSeYPR0wPib7tlX4iw">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/Rwy4UI9ABkUhuMViqeRwW"/>
+        <rdfs:label>Pleading</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7dTl17NQLkdUTdAEuKhXY9 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7dTl17NQLkdUTdAEuKhXY9">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GSZlGWPggfk5LRyAjfhzM"/>
+        <rdfs:label>Sweeping_Inward_To_Side</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7lnqEdSSWkxcKBJz936lvK -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7lnqEdSSWkxcKBJz936lvK">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RuJVjy9T8nLYwmfyUaXgyR"/>
+        <rdfs:label>Horns</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7mnHrYqQwCpfFofhovuQZm -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7mnHrYqQwCpfFofhovuQZm">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GSZlGWPggfk5LRyAjfhzM"/>
+        <rdfs:label>Straight</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7qGYRJB9JWGQAW8TM8oskz -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7qGYRJB9JWGQAW8TM8oskz">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9dkUrKW5HABD87WVSFOt4p"/>
+        <rdfs:label>PleaseComeIn</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7uGai0lnxPogtOC1Exblsw -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7uGai0lnxPogtOC1Exblsw">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RuJVjy9T8nLYwmfyUaXgyR"/>
+        <rdfs:label>Index_Finger_Extended</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7xDwcD98IeNp3rcpeXnMyB -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7xDwcD98IeNp3rcpeXnMyB">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDZUR44iayQ5K0iRTn54Kb1"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Where?</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R86dqyQriFAkgObwzkVSoz9 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R86dqyQriFAkgObwzkVSoz9">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDkxUMX5vBvO9OJL9hL44Gh"/>
+        <rdfs:label>PalmInward→
+PalmForward</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R89dtyMTJEda60cGPOWQHGg -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R89dtyMTJEda60cGPOWQHGg">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/Rxq0yyQsRwhDcu6mty0uCc"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">this is K Letter in Arabic Sign Language</rdfs:comment>
+        <rdfs:label>Letter_k</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8A8xjv8KL3xEtbQO7gu9rc -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8A8xjv8KL3xEtbQO7gu9rc">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/Rwy4UI9ABkUhuMViqeRwW"/>
+        <rdfs:label>Frown</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8BDjMKe0TINJIvOZfMloCI -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8BDjMKe0TINJIvOZfMloCI">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <webprotege:R8suG8zC7tE81eucFshVfg0 rdf:resource="http://webprotege.stanford.edu/R9OozADv2egL6YwP3eAVkkU"/>
+        <webprotege:RBk6aBSJBbdeMfhSJA4xHSU rdf:resource="http://webprotege.stanford.edu/RBgII3n3i9qds9Zx9kKgEzu"/>
+        <webprotege:RCHeTTsOE9o8aBuT2oZL5k1 rdf:resource="http://webprotege.stanford.edu/RC52XifIXYoPNc7taSMYScn"/>
+        <webprotege:RCr7P5PeYStlntTxqtPQKNZ rdf:resource="http://webprotege.stanford.edu/RBl8YaXvSwLy3fipDIIqhh4"/>
+        <webprotege:RMw95fAVKurWpAELmF7RHj rdf:resource="http://webprotege.stanford.edu/R8ODHHVMm44fCGXLqarZ0Mk"/>
+        <webprotege:RgI5U9NsxgMIZ6eM3sQmVq rdf:resource="http://webprotege.stanford.edu/RjacWhSyvac1BDYxIP60Aq"/>
+        <webprotege:RmEtsBX9JYoCyD9X4tDEm rdf:resource="http://webprotege.stanford.edu/RCDejDtfiWm8sZDudaRxYg0"/>
+        <webprotege:RmGdYMGa45a9qprTeCi2CA rdf:resource="http://webprotege.stanford.edu/R9MGsnvPPpqJn8fWtOL5bjq"/>
+        <webprotege:R5vo7I84zu9TLIZBbhlG8l rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:R5vo7I84zu9TLIZBbhlG8l>
+        <rdfs:comment xml:lang="ar">تُؤدى هذه الإشارة كإشارة مركبة أحادية اليد تتكون من مرحلتين: تبدأ بوضع الكف المفتوح  على جانب الجبهة  بوضعية تشبه التحية، ثم تتحرك اليد في مسار قوسي نزل باتجاه الصدر  وتتحول إلى قبضة مغلقة للدلالة على تحية السلام (السلام عليكم)</rdfs:comment>
+        <rdfs:label>Sign_PeaceBeUponYou</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8GtSJ3F5p6aE3x7UxO8sdC -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8GtSJ3F5p6aE3x7UxO8sdC">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <webprotege:R8wOBVKnf2rmhjIfEwFMCNJ rdf:resource="http://webprotege.stanford.edu/R9Rvg1jPSXNWpMeZSKWChAd"/>
+        <webprotege:R9hqc3z6QUroLHON7qaU6Vb rdf:resource="http://webprotege.stanford.edu/RC2iwqNmxir6a7fACPbotEO"/>
+        <webprotege:RC8DzrI0u4DyRDhQNs0LMCM rdf:resource="http://webprotege.stanford.edu/R9bhY9RnQdJrvBhc8UnIjak"/>
+        <webprotege:RCHeTTsOE9o8aBuT2oZL5k1 rdf:resource="http://webprotege.stanford.edu/RjrMHIdGr7U3nyaFqdLcz"/>
+        <webprotege:RmEtsBX9JYoCyD9X4tDEm rdf:resource="http://webprotege.stanford.edu/RRaSSwcOnfQx8oD1MoyF4C"/>
+        <webprotege:RmGdYMGa45a9qprTeCi2CA rdf:resource="http://webprotege.stanford.edu/RDb3z0UWEqE9VOsXiexWCnO"/>
+        <rdfs:comment xml:lang="ar">تُؤدى هذه الإشارة كإشارة بسيطة باستخدام يد واحدة؛ حيث تتخذ اليد شكل القبضة المغلقة ، وتقوم بحركة عمودية متكررة لأعلى وأسفل، ويصاحبها إيماءة بالرأس لأسفل وأعلى للموافقة وتعبير وجه باسم (Smile)</rdfs:comment>
+        <rdfs:label>Sign_Yes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8Gwz8aDAOC7NfxsnsakOtS -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8Gwz8aDAOC7NfxsnsakOtS">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RQSaPZJiaNtZOcGWVyrZnN"/>
+        <rdfs:label>One</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8ODHHVMm44fCGXLqarZ0Mk -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8ODHHVMm44fCGXLqarZ0Mk">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RuJVjy9T8nLYwmfyUaXgyR"/>
+        <rdfs:label>Flat_hands_Open</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8OaRervshC7hqLAqd7q9qm -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8OaRervshC7hqLAqd7q9qm">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RuJVjy9T8nLYwmfyUaXgyR"/>
+        <rdfs:label>One_Index_Finger_Extended</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8WGAidZpZ2FannNRdXc25F -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8WGAidZpZ2FannNRdXc25F">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <webprotege:R8suG8zC7tE81eucFshVfg0 rdf:resource="http://webprotege.stanford.edu/R9Rvg1jPSXNWpMeZSKWChAd"/>
+        <webprotege:R9c7hb2nEC5R2XGP14381XV rdf:resource="http://webprotege.stanford.edu/R9X6cDHlVLMgGvE9gYphMHs"/>
+        <webprotege:R9mSrQKHGNOv3zAYXI2f4lu rdf:resource="http://webprotege.stanford.edu/RC2WHgbyYBsbPyszLLy8BEk"/>
+        <webprotege:R9oUZfQ1Hdtv6wrGrizcOR3 rdf:resource="http://webprotege.stanford.edu/RCzaXAvDohMR91KkbTKQ4Ws"/>
+        <webprotege:RBk6aBSJBbdeMfhSJA4xHSU rdf:resource="http://webprotege.stanford.edu/R9Rvg1jPSXNWpMeZSKWChAd"/>
+        <webprotege:RCHeTTsOE9o8aBuT2oZL5k1 rdf:resource="http://webprotege.stanford.edu/RHk6UmldbnmhEsw0iJZHVG"/>
+        <webprotege:RCr7P5PeYStlntTxqtPQKNZ rdf:resource="http://webprotege.stanford.edu/RCr4toilkkvDzIlepgyPuhd"/>
+        <webprotege:RDjhWHGOAM3EDGW0Jv53Gwr rdf:resource="http://webprotege.stanford.edu/R9xvRRV3g8gWu9cqMrYuu8C"/>
+        <webprotege:RDlp3zF0B0VbkeEQWDKxR1w rdf:resource="http://webprotege.stanford.edu/RC4dQM0hy1TxlqiYkmuzcAs"/>
+        <webprotege:RGlr66k0RD8LVmRkIQMF1J rdf:resource="http://webprotege.stanford.edu/ROTuD69TmCSyV0rVyIJHqL"/>
+        <webprotege:RMw95fAVKurWpAELmF7RHj rdf:resource="http://webprotege.stanford.edu/RBaCyYJnMCSMJryt5IY0n1k"/>
+        <webprotege:RN1QgYwVKmy8HwBN9kYbzS rdf:resource="http://webprotege.stanford.edu/RBX3jr8AyLsdLYz3ePKmn9C"/>
+        <webprotege:RgiJ4NkF8wls3YwlVJqGQk rdf:resource="http://webprotege.stanford.edu/R9X6cDHlVLMgGvE9gYphMHs"/>
+        <webprotege:RmGdYMGa45a9qprTeCi2CA rdf:resource="http://webprotege.stanford.edu/RDhQFIl9majzBCK2frBKSZJ"/>
+        <webprotege:R5vo7I84zu9TLIZBbhlG8l rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:R5vo7I84zu9TLIZBbhlG8l>
+        <rdfs:comment xml:lang="ar">تُؤدى هذه الإشارة كإشارة مركبة أحادية اليد  بـ 3 مراحل: تبدأ بمد الكف المفتوح للأعلى  في المساحة المحايدة، ثم سحب اليد بوضعية حرف ل  لأسفل جهة الرقبة ، وتنتهي بحركة إمالة وهبوط تساؤلية بالسبابة للأمام وللأسفل  لإبراز صيغة الاستفهام (ماذا تريد؟).</rdfs:comment>
+        <rdfs:label>Sign_WhatDoYouWant?</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8Z9iDtmUrrKlAMvrq82U7h -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8Z9iDtmUrrKlAMvrq82U7h">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCmx7ELomJ7XbZUzPGYPU5G"/>
+        <rdfs:label>Sorry</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8ZJWRrOIG6gY78TAQ4M3B7 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8ZJWRrOIG6gY78TAQ4M3B7">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GSZlGWPggfk5LRyAjfhzM"/>
+        <rdfs:label>Forward_Movement</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8hYuHHNf19wQ32knwlWAeY -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8hYuHHNf19wQ32knwlWAeY">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDZUR44iayQ5K0iRTn54Kb1"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">What&apos;sYourName?</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8mmgC3bZqc05XarIqpMYPy -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8mmgC3bZqc05XarIqpMYPy">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RuJVjy9T8nLYwmfyUaXgyR"/>
+        <rdfs:label>TwoFingers</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8pwHWPyk1AHp4vrrYLWwJo -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8pwHWPyk1AHp4vrrYLWwJo">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GSZlGWPggfk5LRyAjfhzM"/>
+        <rdfs:label>Upward</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8y8w2tqh8Qv3RF5ZV7JukV -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8y8w2tqh8Qv3RF5ZV7JukV">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RuJVjy9T8nLYwmfyUaXgyR"/>
+        <rdfs:label>Flat_Hand_Horizontal</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Eq1GEHwrI2BvHqFLteYj7 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9Eq1GEHwrI2BvHqFLteYj7">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <webprotege:R8wOBVKnf2rmhjIfEwFMCNJ rdf:resource="http://webprotege.stanford.edu/RB3HzPxdRci5SJmRJmMPjMw"/>
+        <webprotege:RC8DzrI0u4DyRDhQNs0LMCM rdf:resource="http://webprotege.stanford.edu/R8ODHHVMm44fCGXLqarZ0Mk"/>
+        <webprotege:RCHeTTsOE9o8aBuT2oZL5k1 rdf:resource="http://webprotege.stanford.edu/RjrMHIdGr7U3nyaFqdLcz"/>
+        <webprotege:RgI5U9NsxgMIZ6eM3sQmVq rdf:resource="http://webprotege.stanford.edu/RBIPCo3retgQGm0jS75cxKg"/>
+        <webprotege:RmEtsBX9JYoCyD9X4tDEm rdf:resource="http://webprotege.stanford.edu/R8ZJWRrOIG6gY78TAQ4M3B7"/>
+        <webprotege:RmGdYMGa45a9qprTeCi2CA rdf:resource="http://webprotege.stanford.edu/RB30GAAC7CLMXqjXg5jjPcc"/>
+        <rdfs:comment xml:lang="ar">تُؤدى هذه الإشارة كإشارة بسيطة باستخدام يد واحدة؛ حيث تتخذ اليد شكل الكف المفتوح والمفرود ، وتوضع حافة اليد عند جانب الجبهة  ثم تتحرك بحركة قصيرة ومباشرة إلى الأمام وللخارج كإشارة تحية وشكر، ويصاحبها تعبير وجه باسم وممتن</rdfs:comment>
+        <rdfs:label>Sign_ThankYou</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9MGsnvPPpqJn8fWtOL5bjq -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9MGsnvPPpqJn8fWtOL5bjq">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9dkUrKW5HABD87WVSFOt4p"/>
+        <rdfs:label>PeaceBeUponYou</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9OozADv2egL6YwP3eAVkkU -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9OozADv2egL6YwP3eAVkkU">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RB8iUd4eJL8X5aiSItqdxni"/>
+        <rdfs:label>Head</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Rvg1jPSXNWpMeZSKWChAd -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9Rvg1jPSXNWpMeZSKWChAd">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RB8iUd4eJL8X5aiSItqdxni"/>
+        <rdfs:label>Neutral_Space</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9TF8A51XU055m9dKBSlHG6 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9TF8A51XU055m9dKBSlHG6">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDZUR44iayQ5K0iRTn54Kb1"/>
+        <rdfs:label>How?</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9TZ8GdffdYzLOvg1Frscz6 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9TZ8GdffdYzLOvg1Frscz6">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/Rxq0yyQsRwhDcu6mty0uCc"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">this is L Letter in Arabic Sign Language</rdfs:comment>
+        <rdfs:label>Letter_L</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9VJY2Qr9OXrdfWYLfxGVIo -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9VJY2Qr9OXrdfWYLfxGVIo">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RuJVjy9T8nLYwmfyUaXgyR"/>
+        <rdfs:label>ThumbsUp</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9X6cDHlVLMgGvE9gYphMHs -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9X6cDHlVLMgGvE9gYphMHs">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDkxUMX5vBvO9OJL9hL44Gh"/>
+        <rdfs:label>PalmForward</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9bgtBq8F298FfgrRX8Xhhl -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9bgtBq8F298FfgrRX8Xhhl">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCmx7ELomJ7XbZUzPGYPU5G"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Happy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9bhY9RnQdJrvBhc8UnIjak -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9bhY9RnQdJrvBhc8UnIjak">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RuJVjy9T8nLYwmfyUaXgyR"/>
+        <rdfs:label>Fist</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9gfsIGhEO0HzeNWYyqGBJr -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9gfsIGhEO0HzeNWYyqGBJr">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/Rxq0yyQsRwhDcu6mty0uCc"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">this is M Letter in Arabic Sign Language</rdfs:comment>
+        <rdfs:label>Letter_M</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9iF9cpxBDQmRNyD7YGujNK -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9iF9cpxBDQmRNyD7YGujNK">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <webprotege:R8wOBVKnf2rmhjIfEwFMCNJ rdf:resource="http://webprotege.stanford.edu/R9Rvg1jPSXNWpMeZSKWChAd"/>
+        <webprotege:R9hqc3z6QUroLHON7qaU6Vb rdf:resource="http://webprotege.stanford.edu/RBYICCWpSbt6tcd4vAbpOoW"/>
+        <webprotege:RC8DzrI0u4DyRDhQNs0LMCM rdf:resource="http://webprotege.stanford.edu/R7lnqEdSSWkxcKBJz936lvK"/>
+        <webprotege:RCHeTTsOE9o8aBuT2oZL5k1 rdf:resource="http://webprotege.stanford.edu/R8A8xjv8KL3xEtbQO7gu9rc"/>
+        <webprotege:RgI5U9NsxgMIZ6eM3sQmVq rdf:resource="http://webprotege.stanford.edu/R9X6cDHlVLMgGvE9gYphMHs"/>
+        <webprotege:RmEtsBX9JYoCyD9X4tDEm rdf:resource="http://webprotege.stanford.edu/RCSZwKPIp4Wl4khDBjBrZhN"/>
+        <webprotege:RmGdYMGa45a9qprTeCi2CA rdf:resource="http://webprotege.stanford.edu/RuV3l9a7idmlJU3Xhok9SA"/>
+        <rdfs:comment xml:lang="ar">تُؤدى هذه الإشارة كإشارة بسيطة باستخدام يد واحدة؛ حيث يمتد إصبع السبابة وإصبع الخنصر الصغير معاً لأعلى متخذين شكل القرون مع توجيه كف اليد للأمام ، وتقوم اليد بحركة اهتزازية جانبية سريعة (يميناً ويساراً) للدلالة على النفي، ويصاحبها هز الرأس جانباً للرفض وتعبير وجه حازم</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sign_No</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9iG2aO02SimQ2EL4zD2HJI -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9iG2aO02SimQ2EL4zD2HJI">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBfmydw9vN0humcLr29Zh1r"/>
+        <rdfs:label>Reason</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9xvRRV3g8gWu9cqMrYuu8C -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9xvRRV3g8gWu9cqMrYuu8C">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GSZlGWPggfk5LRyAjfhzM"/>
+        <rdfs:label>Question_Drop_Movement</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9yBwGksouc1zFuzJAcIVMw -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9yBwGksouc1zFuzJAcIVMw">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RuJVjy9T8nLYwmfyUaXgyR"/>
+        <rdfs:label>Circle_Handshape</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB30GAAC7CLMXqjXg5jjPcc -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RB30GAAC7CLMXqjXg5jjPcc">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9dkUrKW5HABD87WVSFOt4p"/>
+        <rdfs:label>Thank_You</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB3HzPxdRci5SJmRJmMPjMw -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RB3HzPxdRci5SJmRJmMPjMw">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RB8iUd4eJL8X5aiSItqdxni"/>
+        <rdfs:label>Forehead</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBChzTei2SdvgAB3ll4vGSb -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBChzTei2SdvgAB3ll4vGSb">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GSZlGWPggfk5LRyAjfhzM"/>
+        <rdfs:label>Tap_To_Chest_Movement</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBIPCo3retgQGm0jS75cxKg -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBIPCo3retgQGm0jS75cxKg">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDkxUMX5vBvO9OJL9hL44Gh"/>
+        <rdfs:label>PalmSideways</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBJr3Uv3CXQj5RVI7sRpzG3 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBJr3Uv3CXQj5RVI7sRpzG3">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/Rwy4UI9ABkUhuMViqeRwW"/>
+        <rdfs:label>Apologetic_Expression</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBX3jr8AyLsdLYz3ePKmn9C -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBX3jr8AyLsdLYz3ePKmn9C">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDkxUMX5vBvO9OJL9hL44Gh"/>
+        <rdfs:label>PalmInward</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBYICCWpSbt6tcd4vAbpOoW -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBYICCWpSbt6tcd4vAbpOoW">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GSZlGWPggfk5LRyAjfhzM"/>
+        <rdfs:label>Head_Shake</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBaCyYJnMCSMJryt5IY0n1k -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBaCyYJnMCSMJryt5IY0n1k">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RuJVjy9T8nLYwmfyUaXgyR"/>
+        <rdfs:label>OpenPalm</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBf0d9WSJhnI1onHJYzdDBp -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBf0d9WSJhnI1onHJYzdDBp">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <webprotege:R8wOBVKnf2rmhjIfEwFMCNJ rdf:resource="http://webprotege.stanford.edu/RBgII3n3i9qds9Zx9kKgEzu"/>
+        <webprotege:RC8DzrI0u4DyRDhQNs0LMCM rdf:resource="http://webprotege.stanford.edu/R8ODHHVMm44fCGXLqarZ0Mk"/>
+        <webprotege:RCHeTTsOE9o8aBuT2oZL5k1 rdf:resource="http://webprotege.stanford.edu/RBJr3Uv3CXQj5RVI7sRpzG3"/>
+        <webprotege:RgI5U9NsxgMIZ6eM3sQmVq rdf:resource="http://webprotege.stanford.edu/RBX3jr8AyLsdLYz3ePKmn9C"/>
+        <webprotege:RmEtsBX9JYoCyD9X4tDEm rdf:resource="http://webprotege.stanford.edu/RKj3qvvcD9YICBI72fKQR4"/>
+        <webprotege:RmGdYMGa45a9qprTeCi2CA rdf:resource="http://webprotege.stanford.edu/R8Z9iDtmUrrKlAMvrq82U7h"/>
+        <rdfs:comment xml:lang="ar">تُؤدى هذه الإشارة كإشارة بسيطة أحادية اليد ؛ حيث يُوضع الكف المفتوح  ثابتاً على منطقة الصدر  دون تحريك اليد ، وتتجه الراحة للداخل ، مع إيماءة وانحناء خفيف بالجسد والكتفين للأمام وتعبير اعتذار بالوجه للدلالة على (آسف)</rdfs:comment>
+        <rdfs:label>Sign_Sorry</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBgII3n3i9qds9Zx9kKgEzu -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBgII3n3i9qds9Zx9kKgEzu">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RB8iUd4eJL8X5aiSItqdxni"/>
+        <rdfs:label>Chest</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBl8YaXvSwLy3fipDIIqhh4 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBl8YaXvSwLy3fipDIIqhh4">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RuJVjy9T8nLYwmfyUaXgyR"/>
+        <rdfs:label>Closed_Fist</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBqrqqeQ8sLLBVFuSNLWH8G -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBqrqqeQ8sLLBVFuSNLWH8G">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <webprotege:R8wOBVKnf2rmhjIfEwFMCNJ rdf:resource="http://webprotege.stanford.edu/RCk0jHWWCn1PHy5rKPAsFvh"/>
+        <webprotege:RC8DzrI0u4DyRDhQNs0LMCM rdf:resource="http://webprotege.stanford.edu/R8ODHHVMm44fCGXLqarZ0Mk"/>
+        <webprotege:RCHeTTsOE9o8aBuT2oZL5k1 rdf:resource="http://webprotege.stanford.edu/RjrMHIdGr7U3nyaFqdLcz"/>
+        <webprotege:RgI5U9NsxgMIZ6eM3sQmVq rdf:resource="http://webprotege.stanford.edu/RCXa32XodkKAPXwhMCHaoH8"/>
+        <webprotege:RmEtsBX9JYoCyD9X4tDEm rdf:resource="http://webprotege.stanford.edu/R7dTl17NQLkdUTdAEuKhXY9"/>
+        <webprotege:RmGdYMGa45a9qprTeCi2CA rdf:resource="http://webprotege.stanford.edu/R7qGYRJB9JWGQAW8TM8oskz"/>
+        <webprotege:R9vJWpB0ORM94nZflmdsGlx rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:R9vJWpB0ORM94nZflmdsGlx>
+        <rdfs:comment xml:lang="ar">تُؤدى هذه الإشارة كإشارة بسيطة ثنائية اليد ؛ حيث يُفتح الكفان متواجهين للأعلى  أمام الصدر، ثم تتحرك اليدان بحركة مسح قوسي سلسة باتجاه الجانب لإظهار الترحيب والدعوة للدخول (تفضل بالدخول)</rdfs:comment>
+        <rdfs:label>Sign_PleaseComeIn</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBuu8KvR8VkI7QaJhVZNG2h -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBuu8KvR8VkI7QaJhVZNG2h">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <webprotege:R8suG8zC7tE81eucFshVfg0 rdf:resource="http://webprotege.stanford.edu/R9Rvg1jPSXNWpMeZSKWChAd"/>
+        <webprotege:R9oUZfQ1Hdtv6wrGrizcOR3 rdf:resource="http://webprotege.stanford.edu/RBgII3n3i9qds9Zx9kKgEzu"/>
+        <webprotege:RCHeTTsOE9o8aBuT2oZL5k1 rdf:resource="http://webprotege.stanford.edu/RHk6UmldbnmhEsw0iJZHVG"/>
+        <webprotege:RGlr66k0RD8LVmRkIQMF1J rdf:resource="http://webprotege.stanford.edu/R8y8w2tqh8Qv3RF5ZV7JukV"/>
+        <webprotege:RMw95fAVKurWpAELmF7RHj rdf:resource="http://webprotege.stanford.edu/RCr4toilkkvDzIlepgyPuhd"/>
+        <webprotege:RgI5U9NsxgMIZ6eM3sQmVq rdf:resource="http://webprotege.stanford.edu/RBX3jr8AyLsdLYz3ePKmn9C"/>
+        <webprotege:RmEtsBX9JYoCyD9X4tDEm rdf:resource="http://webprotege.stanford.edu/RrEKRhgm1NSWZCRrRsd6Jq"/>
+        <webprotege:RmGdYMGa45a9qprTeCi2CA rdf:resource="http://webprotege.stanford.edu/RC0YYPo9LYEeELyR7XHk9zr"/>
+        <webprotege:R5vo7I84zu9TLIZBbhlG8l rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:R5vo7I84zu9TLIZBbhlG8l>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">تُؤدى هذه الإشارة كإشارة مركبة أحادية اليد  وتتكون من ثلاثة أجزاء متتالية: تبدأ بالتأشير بالسبابة نحو المخاطَب ، ثم وضع الكف المفتوح أفقيّاً على الصدر لتجسيد مفهوم العمر، وتنتهي   بحركة دائرية واحدة في الفراغ المحايد أمام الجسم للسؤال والاستفهام (كم عمرك؟)</rdfs:comment>
+        <rdfs:label>Sign_HowOldAreYou?</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBxCGIkYvPCI7AXe57KEtF2 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBxCGIkYvPCI7AXe57KEtF2">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <webprotege:R8suG8zC7tE81eucFshVfg0 rdf:resource="http://webprotege.stanford.edu/R9Rvg1jPSXNWpMeZSKWChAd"/>
+        <webprotege:R9c7hb2nEC5R2XGP14381XV rdf:resource="http://webprotege.stanford.edu/RBX3jr8AyLsdLYz3ePKmn9C"/>
+        <webprotege:R9mSrQKHGNOv3zAYXI2f4lu rdf:resource="http://webprotege.stanford.edu/RrEKRhgm1NSWZCRrRsd6Jq"/>
+        <webprotege:R9oUZfQ1Hdtv6wrGrizcOR3 rdf:resource="http://webprotege.stanford.edu/RDsl1uPgMp0Wdg8CrqHjrOH"/>
+        <webprotege:RBk6aBSJBbdeMfhSJA4xHSU rdf:resource="http://webprotege.stanford.edu/RCODPOhBIsf4uPzBr14U0u6"/>
+        <webprotege:RCHeTTsOE9o8aBuT2oZL5k1 rdf:resource="http://webprotege.stanford.edu/RHk6UmldbnmhEsw0iJZHVG"/>
+        <webprotege:RCr7P5PeYStlntTxqtPQKNZ rdf:resource="http://webprotege.stanford.edu/RCr4toilkkvDzIlepgyPuhd"/>
+        <webprotege:RDjhWHGOAM3EDGW0Jv53Gwr rdf:resource="http://webprotege.stanford.edu/RBChzTei2SdvgAB3ll4vGSb"/>
+        <webprotege:RDlp3zF0B0VbkeEQWDKxR1w rdf:resource="http://webprotege.stanford.edu/R74XFxcR2ahluf2NQ2llcd"/>
+        <webprotege:RGlr66k0RD8LVmRkIQMF1J rdf:resource="http://webprotege.stanford.edu/RBaCyYJnMCSMJryt5IY0n1k"/>
+        <webprotege:RMw95fAVKurWpAELmF7RHj rdf:resource="http://webprotege.stanford.edu/RCr4toilkkvDzIlepgyPuhd"/>
+        <webprotege:RN1QgYwVKmy8HwBN9kYbzS rdf:resource="http://webprotege.stanford.edu/R9X6cDHlVLMgGvE9gYphMHs"/>
+        <webprotege:RgiJ4NkF8wls3YwlVJqGQk rdf:resource="http://webprotege.stanford.edu/R9X6cDHlVLMgGvE9gYphMHs"/>
+        <webprotege:RmGdYMGa45a9qprTeCi2CA rdf:resource="http://webprotege.stanford.edu/R8hYuHHNf19wQ32knwlWAeY"/>
+        <webprotege:R5vo7I84zu9TLIZBbhlG8l rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:R5vo7I84zu9TLIZBbhlG8l>
+        <rdfs:comment xml:lang="ar">تُؤدى هذه الإشارة كإشارة مركبة  بـ 3 مراحل حركية: تبدأ بالتأشير للأمام بالسبابة في المساحة المحايدة ، ثم حركة دائرية بالكف المفتوح في المساحة المحايدة ، وتنتهي بتوجيه السبابة ونقرها على جهة الصدر الأيمن  بـ للدلالة على السؤال عن الاسم (ما اسمك؟)</rdfs:comment>
+        <rdfs:label>Sign_ What&apos;sYourName?</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RByUXD6fxKLrD70sLN0yVw3 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RByUXD6fxKLrD70sLN0yVw3">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <webprotege:R8wOBVKnf2rmhjIfEwFMCNJ rdf:resource="http://webprotege.stanford.edu/R9Rvg1jPSXNWpMeZSKWChAd"/>
+        <webprotege:RC8DzrI0u4DyRDhQNs0LMCM rdf:resource="http://webprotege.stanford.edu/RjkUhM4H4qzcToaYv3UrJi"/>
+        <webprotege:RCHeTTsOE9o8aBuT2oZL5k1 rdf:resource="http://webprotege.stanford.edu/RDpVTmMePThqIDE9KY9I9Xp"/>
+        <webprotege:RmEtsBX9JYoCyD9X4tDEm rdf:resource="http://webprotege.stanford.edu/RrEKRhgm1NSWZCRrRsd6Jq"/>
+        <webprotege:RmGdYMGa45a9qprTeCi2CA rdf:resource="http://webprotege.stanford.edu/R7xDwcD98IeNp3rcpeXnMyB"/>
+        <rdfs:comment xml:lang="ar">تشكيل اليد بشكل دائري، حيث يتلامس الإبهام مع السبابة لتكوين حلقة، مع بقاء الأصابع الثلاثة الأخرى ممتدة</rdfs:comment>
+        <rdfs:label>Sign_Where?</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RByWYbNYRhE91I8d1VKNjnO -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RByWYbNYRhE91I8d1VKNjnO">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDkxUMX5vBvO9OJL9hL44Gh"/>
+        <rdfs:label>PointingForward</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC0YYPo9LYEeELyR7XHk9zr -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC0YYPo9LYEeELyR7XHk9zr">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDZUR44iayQ5K0iRTn54Kb1"/>
+        <rdfs:label>HowOldAreYou?</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC2WHgbyYBsbPyszLLy8BEk -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC2WHgbyYBsbPyszLLy8BEk">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GSZlGWPggfk5LRyAjfhzM"/>
+        <rdfs:label>Pull_To_down</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC2iwqNmxir6a7fACPbotEO -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC2iwqNmxir6a7fACPbotEO">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GSZlGWPggfk5LRyAjfhzM"/>
+        <rdfs:label>Head_Nod</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC4dQM0hy1TxlqiYkmuzcAs -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC4dQM0hy1TxlqiYkmuzcAs">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GSZlGWPggfk5LRyAjfhzM"/>
+        <rdfs:label>Circular</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC52XifIXYoPNc7taSMYScn -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC52XifIXYoPNc7taSMYScn">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/Rwy4UI9ABkUhuMViqeRwW"/>
+        <rdfs:label>Friendly_Expression</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC9Rj8lOhIWMIpU6uM49cwW -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC9Rj8lOhIWMIpU6uM49cwW">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <webprotege:R8suG8zC7tE81eucFshVfg0 rdf:resource="http://webprotege.stanford.edu/RBgII3n3i9qds9Zx9kKgEzu"/>
+        <webprotege:RCHeTTsOE9o8aBuT2oZL5k1 rdf:resource="http://webprotege.stanford.edu/RjrMHIdGr7U3nyaFqdLcz"/>
+        <webprotege:RCr7P5PeYStlntTxqtPQKNZ rdf:resource="http://webprotege.stanford.edu/R9VJY2Qr9OXrdfWYLfxGVIo"/>
+        <webprotege:RMw95fAVKurWpAELmF7RHj rdf:resource="http://webprotege.stanford.edu/R8ODHHVMm44fCGXLqarZ0Mk"/>
+        <webprotege:RgI5U9NsxgMIZ6eM3sQmVq rdf:resource="http://webprotege.stanford.edu/R86dqyQriFAkgObwzkVSoz9"/>
+        <webprotege:RmEtsBX9JYoCyD9X4tDEm rdf:resource="http://webprotege.stanford.edu/ReduBiQ2ukydO2Sp66Kuqo"/>
+        <webprotege:RmGdYMGa45a9qprTeCi2CA rdf:resource="http://webprotege.stanford.edu/RCRnAhMtdUvfQdAdAL8EAvk"/>
+        <webprotege:R5vo7I84zu9TLIZBbhlG8l rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:R5vo7I84zu9TLIZBbhlG8l>
+        <webprotege:R9vJWpB0ORM94nZflmdsGlx rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:R9vJWpB0ORM94nZflmdsGlx>
+        <rdfs:comment xml:lang="ar">تُؤدى هذه الإشارة كإشارة بسيطة ثنائية اليد ؛ تبدأ بوضع كفي اليدين المفتوحتين  على منطقة الصدربحيث تتجه الراحتان للداخل، ثم تتحرك اليدان للأمام وللخارج باتجاه المخاطَب مع توجيه الراحتين للأعلى/الأمام، ويصاحبها تعبير وجه ودود للسؤال عن الحال</rdfs:comment>
+        <rdfs:label>Sign_HowAreYou?</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCDejDtfiWm8sZDudaRxYg0 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCDejDtfiWm8sZDudaRxYg0">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GSZlGWPggfk5LRyAjfhzM"/>
+        <rdfs:label>Downward_Arc_To_Chest</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCODPOhBIsf4uPzBr14U0u6 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCODPOhBIsf4uPzBr14U0u6">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RB8iUd4eJL8X5aiSItqdxni"/>
+        <rdfs:label>Right_Chest</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCPzn7nyXenT7f1cxYm1enY -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCPzn7nyXenT7f1cxYm1enY">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDZUR44iayQ5K0iRTn54Kb1"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Why?</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCRnAhMtdUvfQdAdAL8EAvk -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCRnAhMtdUvfQdAdAL8EAvk">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDZUR44iayQ5K0iRTn54Kb1"/>
+        <rdfs:label>HowAreYou?</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCSZwKPIp4Wl4khDBjBrZhN -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCSZwKPIp4Wl4khDBjBrZhN">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GSZlGWPggfk5LRyAjfhzM"/>
+        <rdfs:label>Side_to_Side_Movement</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCXa32XodkKAPXwhMCHaoH8 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCXa32XodkKAPXwhMCHaoH8">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDkxUMX5vBvO9OJL9hL44Gh"/>
+        <rdfs:label>PalmUp</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCk0jHWWCn1PHy5rKPAsFvh -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCk0jHWWCn1PHy5rKPAsFvh">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RB8iUd4eJL8X5aiSItqdxni"/>
+        <rdfs:label>Chest_Neutral_Space</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCr4toilkkvDzIlepgyPuhd -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCr4toilkkvDzIlepgyPuhd">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RuJVjy9T8nLYwmfyUaXgyR"/>
+        <rdfs:label>Index_Finger</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCtlUaj8uDo7LiO1a2Ib0oC -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCtlUaj8uDo7LiO1a2Ib0oC">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <webprotege:R8wOBVKnf2rmhjIfEwFMCNJ rdf:resource="http://webprotege.stanford.edu/R9Rvg1jPSXNWpMeZSKWChAd"/>
+        <webprotege:RCHeTTsOE9o8aBuT2oZL5k1 rdf:resource="http://webprotege.stanford.edu/RDpVTmMePThqIDE9KY9I9Xp"/>
+        <webprotege:RDM6XKD2JdDofdCo0iVUKUZ rdf:resource="http://webprotege.stanford.edu/RrEKRhgm1NSWZCRrRsd6Jq"/>
+        <webprotege:RMw95fAVKurWpAELmF7RHj rdf:resource="http://webprotege.stanford.edu/RGnoKzAByKF92CFwPXJlH5"/>
+        <webprotege:RmGdYMGa45a9qprTeCi2CA rdf:resource="http://webprotege.stanford.edu/REyMBRr8tWCkz6UDWSLiG3"/>
+        <webprotege:RoV7vY8hBcUz9IEJGr9x4Z rdf:resource="http://webprotege.stanford.edu/R9gfsIGhEO0HzeNWYyqGBJr"/>
+        <webprotege:R5vo7I84zu9TLIZBbhlG8l rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:R5vo7I84zu9TLIZBbhlG8l>
+        <rdfs:comment xml:lang="ar">إشارة استفهامية مركبة تبدأ بوضعية اليد الخاصة بحرف (الميم) في أبجدية الأصابع العربية، وتنتقل بحركة دائرية واحدة في الفراغ المحايد، مع ضرورة اقترانها بتعبير وجه استفهامي</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sign_What?</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCzaXAvDohMR91KkbTKQ4Ws -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCzaXAvDohMR91KkbTKQ4Ws">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RB8iUd4eJL8X5aiSItqdxni"/>
+        <rdfs:label>touches_the_neck</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDLVIA0TaNTDOAW1QEPRSU2 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDLVIA0TaNTDOAW1QEPRSU2">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <webprotege:R8suG8zC7tE81eucFshVfg0 rdf:resource="http://webprotege.stanford.edu/R79xHYkuedhi9QKRau5fQsA"/>
+        <webprotege:R8wOBVKnf2rmhjIfEwFMCNJ rdf:resource="http://webprotege.stanford.edu/R9Rvg1jPSXNWpMeZSKWChAd"/>
+        <webprotege:RCHeTTsOE9o8aBuT2oZL5k1 rdf:resource="http://webprotege.stanford.edu/RDpVTmMePThqIDE9KY9I9Xp"/>
+        <webprotege:RDM6XKD2JdDofdCo0iVUKUZ rdf:resource="http://webprotege.stanford.edu/RrEKRhgm1NSWZCRrRsd6Jq"/>
+        <webprotege:RMw95fAVKurWpAELmF7RHj rdf:resource="http://webprotege.stanford.edu/R8OaRervshC7hqLAqd7q9qm"/>
+        <webprotege:RgI5U9NsxgMIZ6eM3sQmVq rdf:resource="http://webprotege.stanford.edu/R9X6cDHlVLMgGvE9gYphMHs"/>
+        <webprotege:RmGdYMGa45a9qprTeCi2CA rdf:resource="http://webprotege.stanford.edu/RDLqZhODux2qAfJChs6kvRD"/>
+        <webprotege:R5vo7I84zu9TLIZBbhlG8l rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:R5vo7I84zu9TLIZBbhlG8l>
+        <webprotege:R9vJWpB0ORM94nZflmdsGlx rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:R9vJWpB0ORM94nZflmdsGlx>
+        <rdfs:comment xml:lang="ar">تُؤدى هذه الإشارة كإشارة مركبة (isCompound: true) باستخدام اليدين؛ حيث تبدأ اليد النشطة بوضعية إصبع السبابة الممتد (One) وتقوم بالنقر على معصم اليد الأخرى (Wrist) لإعطاء دلالة رمزية على الوقت، تليها مباشرة حركة دائرية (Circular_Movement) بالإصبع في الفراغ المحايد للدلالة على سؤال الاستفسار (متى؟)، ويصاحبها تعبير وجه تساؤلي</rdfs:comment>
+        <rdfs:label>Sign_When?</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDLqZhODux2qAfJChs6kvRD -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDLqZhODux2qAfJChs6kvRD">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDZUR44iayQ5K0iRTn54Kb1"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">When?</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDWCQK207OgnI19PKkwhpdf -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDWCQK207OgnI19PKkwhpdf">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <webprotege:R8wOBVKnf2rmhjIfEwFMCNJ rdf:resource="http://webprotege.stanford.edu/R9Rvg1jPSXNWpMeZSKWChAd"/>
+        <webprotege:RC8DzrI0u4DyRDhQNs0LMCM rdf:resource="http://webprotege.stanford.edu/R8ODHHVMm44fCGXLqarZ0Mk"/>
+        <webprotege:RCHeTTsOE9o8aBuT2oZL5k1 rdf:resource="http://webprotege.stanford.edu/RDpVTmMePThqIDE9KY9I9Xp"/>
+        <webprotege:RmEtsBX9JYoCyD9X4tDEm rdf:resource="http://webprotege.stanford.edu/RiZVxnwK6L5eYmftvjmZLf"/>
+        <webprotege:RmGdYMGa45a9qprTeCi2CA rdf:resource="http://webprotege.stanford.edu/R9iG2aO02SimQ2EL4zD2HJI"/>
+        <webprotege:R9vJWpB0ORM94nZflmdsGlx rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:R9vJWpB0ORM94nZflmdsGlx>
+        <rdfs:comment xml:lang="ar">تُؤدى هذه الإشارة باستخدام اليدين معاً (إشارة ثنائية)؛ حيث تعمل اليد اليسرى كقاعدة ثابتة ومفرودة (كف مفتوح موجه للأعلى والأمام)، بينما تقوم اليد اليمنى (المتحركة) وهي مفرودة أيضاً بحركة مسح واحتكاك متكرر فوق كف اليد اليسرى بالانتقال من الداخل إلى الخارج، مع تعبير  وجه استفهامي</rdfs:comment>
+        <rdfs:label>Sign_Reason</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDb3z0UWEqE9VOsXiexWCnO -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDb3z0UWEqE9VOsXiexWCnO">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBfmydw9vN0humcLr29Zh1r"/>
+        <rdfs:label>Yes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDhQFIl9majzBCK2frBKSZJ -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDhQFIl9majzBCK2frBKSZJ">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDZUR44iayQ5K0iRTn54Kb1"/>
+        <rdfs:label>WhatDoYouWant?</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDpVTmMePThqIDE9KY9I9Xp -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDpVTmMePThqIDE9KY9I9Xp">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/Rwy4UI9ABkUhuMViqeRwW"/>
+        <rdfs:label>Furrowed_Brows</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDsl1uPgMp0Wdg8CrqHjrOH -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDsl1uPgMp0Wdg8CrqHjrOH">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/Rwy4UI9ABkUhuMViqeRwW"/>
+        <rdfs:label>Neutral</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/REnIPVaGs8PDgfrgEJb17d -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/REnIPVaGs8PDgfrgEJb17d">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <webprotege:R8wOBVKnf2rmhjIfEwFMCNJ rdf:resource="http://webprotege.stanford.edu/R9Rvg1jPSXNWpMeZSKWChAd"/>
+        <webprotege:RCHeTTsOE9o8aBuT2oZL5k1 rdf:resource="http://webprotege.stanford.edu/R7bFClSeYPR0wPib7tlX4iw"/>
+        <webprotege:RMw95fAVKurWpAELmF7RHj rdf:resource="http://webprotege.stanford.edu/R8OaRervshC7hqLAqd7q9qm"/>
+        <webprotege:RgI5U9NsxgMIZ6eM3sQmVq rdf:resource="http://webprotege.stanford.edu/RBX3jr8AyLsdLYz3ePKmn9C"/>
+        <webprotege:RmEtsBX9JYoCyD9X4tDEm rdf:resource="http://webprotege.stanford.edu/RRaSSwcOnfQx8oD1MoyF4C"/>
+        <webprotege:RmGdYMGa45a9qprTeCi2CA rdf:resource="http://webprotege.stanford.edu/RRPqdCWQO0d1nPY2rHNIi8"/>
+        <rdfs:comment xml:lang="ar">تُؤدى هذه الإشارة كإشارة بسيطة باستخدام يد واحدة للتعبير عن معنى (من فضلك)؛ حيث يمتد إصبع السبابة لأعلى متخذاً شكل الرقم واحد مع توجيه راحة الكف للداخل نحو الجسد ، ويقوم الإصبع بحركة عمودية خفيفة وصغيرة جداً إلى الأعلى والأسفل ، ويصاحبها تعبير وجه رقيق ومتوسل  يناسب أسلوب الطلب والرجاء</rdfs:comment>
+        <rdfs:label>Sign_Please</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/REyMBRr8tWCkz6UDWSLiG3 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/REyMBRr8tWCkz6UDWSLiG3">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDZUR44iayQ5K0iRTn54Kb1"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">What?</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RFYyR1Ngpr3oZCC7xEqV5v -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RFYyR1Ngpr3oZCC7xEqV5v">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/Rwy4UI9ABkUhuMViqeRwW"/>
+        <rdfs:label>RaisedEyebrows</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RGnoKzAByKF92CFwPXJlH5 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RGnoKzAByKF92CFwPXJlH5">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RuJVjy9T8nLYwmfyUaXgyR"/>
+        <rdfs:label>Pinky_Extended_M_Shape</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RHk6UmldbnmhEsw0iJZHVG -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RHk6UmldbnmhEsw0iJZHVG">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/Rwy4UI9ABkUhuMViqeRwW"/>
+        <rdfs:label>Question_Expression</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RKj3qvvcD9YICBI72fKQR4 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RKj3qvvcD9YICBI72fKQR4">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GSZlGWPggfk5LRyAjfhzM"/>
+        <rdfs:label>Body_Slight_Forward_Inclination</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/ROTuD69TmCSyV0rVyIJHqL -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/ROTuD69TmCSyV0rVyIJHqL">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RuJVjy9T8nLYwmfyUaXgyR"/>
+        <rdfs:label>index_extended_L_Shape</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RRPqdCWQO0d1nPY2rHNIi8 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RRPqdCWQO0d1nPY2rHNIi8">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCmx7ELomJ7XbZUzPGYPU5G"/>
+        <rdfs:label>Please</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RRaSSwcOnfQx8oD1MoyF4C -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RRaSSwcOnfQx8oD1MoyF4C">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GSZlGWPggfk5LRyAjfhzM"/>
+        <rdfs:label>Up_Down_Movement</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RVGnyAHwepfPQKO7yLqPVR -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RVGnyAHwepfPQKO7yLqPVR">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9gvNDZonjW2WThWufNuVYm"/>
+        <webprotege:R8wOBVKnf2rmhjIfEwFMCNJ rdf:resource="http://webprotege.stanford.edu/R9Rvg1jPSXNWpMeZSKWChAd"/>
+        <webprotege:RCHeTTsOE9o8aBuT2oZL5k1 rdf:resource="http://webprotege.stanford.edu/RDpVTmMePThqIDE9KY9I9Xp"/>
+        <webprotege:RDM6XKD2JdDofdCo0iVUKUZ rdf:resource="http://webprotege.stanford.edu/RrEKRhgm1NSWZCRrRsd6Jq"/>
+        <webprotege:RMw95fAVKurWpAELmF7RHj rdf:resource="http://webprotege.stanford.edu/ROTuD69TmCSyV0rVyIJHqL"/>
+        <webprotege:RmGdYMGa45a9qprTeCi2CA rdf:resource="http://webprotege.stanford.edu/RCPzn7nyXenT7f1cxYm1enY"/>
+        <webprotege:RoV7vY8hBcUz9IEJGr9x4Z rdf:resource="http://webprotege.stanford.edu/R9TZ8GdffdYzLOvg1Frscz6"/>
+        <webprotege:R5vo7I84zu9TLIZBbhlG8l rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:R5vo7I84zu9TLIZBbhlG8l>
+        <rdfs:comment xml:lang="ar">تُؤدى هذه الإشارة باستخدام شكل يد يشبه حرف (ل)، حيث تكون السبابة ممدودة للأعلى الإبهام كذلك وبقية الأصابع مثنية، ثم تُحرّك اليد بحركة دائرية واحدة في الفراغ المحايد، مع تعبير وجهي يتمثل في تقطيب الحاجبين للدلالة على الاستفهام (لماذا)</rdfs:comment>
+        <rdfs:label>Sign_Why?</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/ReduBiQ2ukydO2Sp66Kuqo -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/ReduBiQ2ukydO2Sp66Kuqo">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GSZlGWPggfk5LRyAjfhzM"/>
+        <rdfs:label>Chest_To_Forward_Transition</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RiZVxnwK6L5eYmftvjmZLf -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RiZVxnwK6L5eYmftvjmZLf">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GSZlGWPggfk5LRyAjfhzM"/>
+        <rdfs:label>Sliding_Movement</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RjacWhSyvac1BDYxIP60Aq -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RjacWhSyvac1BDYxIP60Aq">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDkxUMX5vBvO9OJL9hL44Gh"/>
+        <webprotege:RC8DzrI0u4DyRDhQNs0LMCM rdf:resource="http://webprotege.stanford.edu/RBaCyYJnMCSMJryt5IY0n1k"/>
+        <rdfs:label>PalmDown</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RjkUhM4H4qzcToaYv3UrJi -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RjkUhM4H4qzcToaYv3UrJi">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RuJVjy9T8nLYwmfyUaXgyR"/>
+        <rdfs:label>F_Handshape</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RjrMHIdGr7U3nyaFqdLcz -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RjrMHIdGr7U3nyaFqdLcz">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/Rwy4UI9ABkUhuMViqeRwW"/>
+        <rdfs:label>Smile</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RrEKRhgm1NSWZCRrRsd6Jq -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RrEKRhgm1NSWZCRrRsd6Jq">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GSZlGWPggfk5LRyAjfhzM"/>
+        <rdfs:label>Single_Circular_Movement</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RuV3l9a7idmlJU3Xhok9SA -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RuV3l9a7idmlJU3Xhok9SA">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBfmydw9vN0humcLr29Zh1r"/>
+        <rdfs:label>No</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
